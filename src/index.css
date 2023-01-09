@@ -51,7 +51,10 @@ header nav a.active {
 }
 /* page content */
 
-
+main {
+  max-width: 1200px;
+  margin: 4px auto;
+}
 /* help layout */
 
 
