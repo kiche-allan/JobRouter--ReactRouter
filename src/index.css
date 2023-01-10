@@ -77,6 +77,13 @@ border-color: var(--primary);
 .help-layout nav a.active {
   background: var(--primary);
 }
+
+.faq .question {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 5px 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
 /* faq */
 
 
