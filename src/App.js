@@ -9,6 +9,7 @@ import Contact from "./pages/help/Contact";
 // layouts
 import RootLayout from './layouts/RootLayout'
 import HelpLayout from "./layouts/HelpLayout";
+import NotFound from "./pages/NotFound";
 
 
 const router = createBrowserRouter(
@@ -21,6 +22,12 @@ const router = createBrowserRouter(
       <Route path = "faq" element = {<Faq/>} />
       <Route path = "contact" element= {<Contact/>}/>
     </Route>
+
+    <Route path = "careers" element = {<CareersLayout />}>
+      <Route index element = {<Careers />} />
+    </Route>
+
+    <Route path =  "*" element = {<NotFound/>} />
   </Route>
   )
 )
