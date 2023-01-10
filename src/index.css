@@ -56,8 +56,27 @@ main {
   margin: 4px auto;
 }
 /* help layout */
+.help-layout nav {
+display: flex;
+justify-content: center;
+gap: 30px;
+margin: 30px 0;
+}
 
+.help-layout nav a {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 4px;
+  text-decoration: none;
+}
 
+.help-layout nav a:hover {
+border-color: var(--primary);
+}
+
+.help-layout nav a.active {
+  background: var(--primary);
+}
 /* faq */
 
 
