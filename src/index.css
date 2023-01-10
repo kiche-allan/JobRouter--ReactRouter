@@ -78,15 +78,36 @@ border-color: var(--primary);
   background: var(--primary);
 }
 
+
+/* faq */
 .faq .question {
   background: rgba(0, 0, 0, 0.2);
   padding: 5px 20px;
   border-radius: 4px;
   margin: 20px 0;
 }
-/* faq */
 
+/* contact form */
+form {
+  margin-top: 30px;
 
+}
+form input, form label span form textarea {
+  display: block;
+} 
+
+form input, form textarea {
+  margin-bottom: 30px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 0;
+  width: 300px;
+  color: var(--secondary);
+}
+
+form label span {
+  margin-bottom: 10px;
+}
 /* careers list */
 
 
