@@ -4,35 +4,35 @@
       "id": 1,
       "title": "Senior React Developer",
       "salary": 50000,
-      "location": "London, UK"
+      "location": "Eldoret, Kenya"
     },
     {
       "id": 2,
-      "title": "Plumber",
+      "title": "Community Advocate",
       "salary": 40000,
-      "location": "Bowser's Castle"
+      "location": "Nairobi, Kenya"
     },
     {
       "id": 3,
-      "title": "Gym Leader",
+      "title": "Software Developer",
       "salary": 75000,
-      "location": "Kanto Region"
+      "location": "Nakuru, Kenya"
     },
     {
       "id": 4,
       "title": "Vue Developer",
       "salary": 40000,
-      "location": "Liverpool, UK"
+      "location": "Mombasa, Kenya"
     },
     {
       "id": 5,
-      "title": "Tutorial Maker",
+      "title": "Python Developer",
       "salary": 35000,
-      "location": "Manchester, UK"
+      "location": "Nairobi, Kenya"
     },
     {
       "id": 6,
-      "title": "Website Manager",
+      "title": "",
       "salary": 50000,
       "location": "Berlin, Germany"
     },
